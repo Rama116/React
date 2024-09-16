@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import React from 'react'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          Asan is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div className="flex h-screen w-screen justify-center items-center bg-green-200">
+
+       <div className="h-4/6 w-[33%] flex justify-center items-center bg-slate-100 relative">
+         <h1 className="absolute top-[10%] text-black text-2xl font-bold">Login Form</h1>
+              
+          <form className="h-[70%] w-[70%]  flex flex-col justify-center items-center gap-7">
+            <input type="text" name="txt" id="txt" placeholder="Name" className="p-3 w-full outline-none focus:border-b-4 hover:border-green-400"/>
+            <input type="email" name="email" id="email" placeholder="abc123@gmail.com" className="p-3 w-full outline-none focus:border-b-4 hover:border-green-400"/>
+            <input type="password" name="pass" id="pass" placeholder="Password" className="p-3 w-full outline-none focus:border-b-4 hover:border-green-400"/>
+            <button type="submit" className="p-2 text-white bg-green-400 w-[80%] font-bold outline-none focus:border-b-4">submit</button>
+          </form>
+        </div>
+    </div>
+
+        
     </>
   )
 }
 
-export default App
+export default App;
