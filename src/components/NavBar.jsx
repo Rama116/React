@@ -5,7 +5,7 @@ const NavBar = () => {
     <>
       
       <div className="w-full h-[4rem] grad-blue-bg text-black bg-purple-400 flex justify-center items-center ">
-        <div className="h-full w-[80%]  flex justify-center items-center flex-row ">
+        <div className="h-full w-[85%]  flex justify-center items-center flex-row ">
           <h1 className="text-3xl text-black w-1/3 h-full flex justify-start items-center">Ramalingam M</h1>
           <div className="w-2/3 h-full flex flex-row justify-end items-center gap-6">
             <ul className="w-full h-full flex flex-row justify-end items-center gap-6">
