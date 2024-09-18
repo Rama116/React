@@ -7,7 +7,13 @@ const Content = () => {
             <div className="h-[35rem] w-[60%] flex flex-col justify-center items-center">
                 <h1 className="text-5xl ml-[2rem] font-serif font-light text-green-500">RAMALINGAM M</h1>
                 <p className="ml-28 mt-10 flex justify-start text-lg font-serif">
-                Hi i am Ramalingam! A Self-Motivated with a relentless commitment to excellence and an unwavering determination to push boundaries, I am a catalyst for success, leveraging my diverse skill set and boundless creativity to drive impactful change and inspire those around me...
+                I am a motivated degree college student pursuing with a strong interest in IT .
+                I have developed foundational skills in like programming, project management,
+                etc. through coursework and hands-on projects. Eager to gain practical
+                experience and contribute to innovative solutions, I am looking for
+                opportunities to apply my knowledge and grow professionally. Known for my
+                problem-solving abilities, teamwork, or leadership. I aim to build a successful
+                career in Developer
                 </p>
             </div>
                 <div className="h-[35rem] w-screen flex justify-center items-center rounded">
