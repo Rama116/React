@@ -1,13 +1,26 @@
 // import React from 'react'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Content from "./pages/Content";
-// import luffy from "./assets/img/luffy.png";
+import Contact from "./pages/Contact";
 const App = () => {
 
   return (
     <>
-        <NavBar />  
-        <Content />
+          <Router>
+            <NavBar />
+            <Routes>
+                <Route exact path="/" element={<Content />} />
+                <Route
+                    path="/Contact"
+                    element={<Contact />}
+                />
+            </Routes>
+        </Router>
     </>
   )
 } 
