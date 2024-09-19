@@ -21,11 +21,11 @@ const NavBar = () => {
         <div className="h-full w-[85%]  flex justify-center items-center flex-row ">
           <h1 className="text-3xl text-black w-1/3 h-full flex justify-start items-center">PORTFOLIO</h1>
           <div className="w-2/3 h-full flex flex-row justify-end items-center gap-6">
-            <ul className="w-full h-full flex flex-row justify-end items-center gap-6">
-              <Link to="/"> <li className="p-3 outline-none hover:border-black hover:border-b-4">Profile</li></Link>
-              <li className="p-3 outline-none hover:border-black hover:border-b-4">Project</li>
-             <Link to="/Contact"><li className="p-3 outline-none hover:border-black hover:border-b-4">Contact</li></Link>
-              <li className="p-3 outline-none hover:border-black hover:border-b-4" onClick={()=> setPopup(!popup)}>Login</li>
+            <ul className="w-full h-full flex flex-row justify-end items-center">
+              <Link to="/"> <li className="p-3 outline-none hover:border-black hover:border-b-4 hover:bg-gray-400">Profile</li></Link>
+              <li className="p-3 outline-none hover:border-black hover:border-b-4 hover:bg-gray-400">Project</li>
+             <Link to="/Contact"><li className="p-3 outline-none hover:border-black hover:border-b-4 hover:bg-gray-400">Contact</li></Link>
+              <li className="p-3 outline-none hover:border-black hover:border-b-4 hover:bg-gray-400" onClick={()=> setPopup(!popup)}>Login</li>
             </ul>
             <CircleUser size={40}/>
           </div>
