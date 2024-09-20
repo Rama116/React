@@ -1,3 +1,4 @@
+import { Github, Instagram, Linkedin } from "lucide-react"
 import black from "../assets/img/black.gif"
 const Content = () => {
   return (
@@ -15,6 +16,12 @@ const Content = () => {
                 problem-solving abilities, teamwork, or leadership. I aim to build a successful
                 career in Developer. 
                 </p>
+                <div className="w-[50%] h-[10%] flex justify-center gap-4 items-center">
+                    <a href="http://"><Instagram size={35} /></a> 
+                    <a href="http://"><Github size={35} /></a>
+                    <a href="http://"><Linkedin size={35} /></a>
+                </div>
+                
             </div>
                 <div className="h-[35rem] w-screen flex justify-center items-center rounded">
                     <img className="h-[50%] w-[40%] border-collapse rounded-3xl" src={black} alt="Luffy-Me" />
