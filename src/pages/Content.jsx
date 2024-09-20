@@ -18,8 +18,8 @@ const Content = () => {
                 </p>
                 <div className="w-[50%] h-[10%] flex justify-center gap-4 items-center">
                     <a href="http://"><Instagram size={35} /></a> 
-                    <a href="http://"><Github size={35} /></a>
-                    <a href="http://"><Linkedin size={35} /></a>
+                    <a href="https://github.com/Rama116" target="blank"><Github size={35} /></a>
+                    <a href="https://www.linkedin.com/in/ramalingam-m-599955276/" target="blank"><Linkedin size={35} /></a>
                 </div>
                 
             </div>
