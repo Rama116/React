@@ -1,10 +1,10 @@
 // import React from 'react'
-import dev from "../assets/img/dev.gif"
+import dev from "../assets/img/undraw_Contact_us_re_4qqt.png"
 const Contact = () => {
   return (
     <>
-        <div className="fixed">
-              <div className="h-screen w-screen flex">
+        {/* <div className="fixed"> */}
+              <div className="h-screen w-[fixed] flex">
                 <div className="h-[70%] w-[40%] text-5xl font-serif flex flex-col justify-center items-center gap-8">
                   <h1 className="text-5xl font-serif flex justify-center items-center">Contact Me!</h1>
                   <img className="w-[75%]" src={dev} alt="Luffy GOAT" />
@@ -20,7 +20,7 @@ const Contact = () => {
                 </div>
                 
               </div>
-        </div>
+        {/* </div> */}
     </>
   )
 }
