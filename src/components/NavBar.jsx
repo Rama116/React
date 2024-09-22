@@ -40,7 +40,7 @@ const NavBar = () => {
                 </li>
               </Link>
             </ul>
-            <CircleUser size={30} className="hidden md:block" />
+            <CircleUser size={30} className="hidden md:block"/>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const Content = () => {
                     <h1 className="text-3xl md:text-5xl font-serif font-light text-black text-center md:text-left">
                     RAMALINGAM M
                     </h1>
-                    <p className="mt-6 md:mt-10 text-base md:text-lg font-serif text-center md:text-left">
+                    <p className="mt-6 ml-3 md:mt-10 text-base md:text-lg font-serif text-center md:text-left">
                     I am a motivated degree college student pursuing with a strong interest in IT.
                     I have developed foundational skills in programming, project management, etc.
                     through coursework and hands-on projects. Eager to gain practical experience and
