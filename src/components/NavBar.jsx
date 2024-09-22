@@ -1,5 +1,5 @@
 import { CircleUser } from "lucide-react";
-// import { X } from "lucide-react";s
+// import { X } from "lucide-react";
 // import  { useRef, useState } from 'react'
 import { Link } from 'react-router-dom';
 
@@ -17,20 +17,35 @@ const NavBar = () => {
   return (
     <>
       
-      <div className="w-[fixed] h-[4rem] grad-blue-bg text-black bg-neutral-300/10 flex justify-center items-center ">
-        <div className="h-full w-[85%]  flex justify-center items-center flex-row ">
-          <h1 className="text-3xl text-black w-1/3 h-full flex justify-start items-center">PORTFOLIO</h1>
-          <div className="w-2/3 h-full flex flex-row justify-end items-center gap-6">
-            <ul className="w-full h-full flex flex-row justify-end items-center">
-              <Link to="/"> <li className="p-3 outline-none hover:border-black hover:border-b-4 hover:bg-gray-400">Profile</li></Link>
-              <li className="p-3 outline-none hover:border-black hover:border-b-4 hover:bg-gray-400">Project</li>
-             <Link to="/Contact"><li className="p-3 outline-none hover:border-black hover:border-b-4 hover:bg-gray-400">Contact</li></Link>
-              {/* <li className="p-3 outline-none hover:border-black hover:border-b-4 hover:bg-gray-400" onClick={()=> setPopup(!popup)}>Login</li> */}
+      <div className="w-full h-[4rem] grad-blue-bg text-black bg-neutral-300/10 flex justify-center items-center">
+        <div className="h-full w-[90%] md:w-[85%] flex justify-between items-center">
+          <h1 className="text-2xl md:text-3xl text-black h-full flex justify-start items-center">
+            PORTFOLIO
+          </h1>
+          <div className="h-full flex flex-row justify-end items-center gap-4 md:gap-6">
+            <ul className="flex flex-row justify-end items-center gap-2 md:gap-4">
+              <Link to="/">
+                <li className="p-2 md:p-3 text-sm md:text-base outline-none hover:border-black hover:border-b-4 hover:bg-gray-400">
+                  Profile
+                </li>
+              </Link>
+              <Link to="/Project">
+                <li className="p-2 md:p-3 text-sm md:text-base outline-none hover:border-black hover:border-b-4 hover:bg-gray-400">
+                  Project
+                </li>
+              </Link>
+              <Link to="/Contact">
+                <li className="p-2 md:p-3 text-sm md:text-base outline-none hover:border-black hover:border-b-4 hover:bg-gray-400">
+                  Contact
+                </li>
+              </Link>
             </ul>
-            <CircleUser size={40}/>
+            <CircleUser size={30} className="hidden md:block" />
           </div>
         </div>
       </div>
+      
+     {/* <li className="p-3 outline-none hover:border-black hover:border-b-4 hover:bg-gray-400" onClick={()=> setPopup(!popup)}>Login</li> */}
       {/* {
         popup &&
         (
