@@ -26,6 +26,7 @@ const Content = () => {
             <div className="h-auto md:h-[35rem] w-full md:w-[40%] flex justify-center items-center mt-8 md:mt-0">
                 <img className="h-[60%] md:h-[50%] w-[80%] md:w-[40%] border-collapse rounded-3xl" src={black} alt="Luffy-Me" />
             </div>
+
         </div>
 
 
