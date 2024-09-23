@@ -1,5 +1,6 @@
 // import React from 'react'
 import dev from "../assets/img/undraw_Contact_us_re_4qqt.png"
+
 const Contact = () => {
   return (
     <>
