@@ -1,6 +1,7 @@
 
 // import { Github } from "lucide-react"
 import med from "../assets/img/medical.webp"
+import farm from "../assets/img/farmerlogo.webp"
 const Project = () => {
   return (
     <>
@@ -39,15 +40,15 @@ const Project = () => {
           {/* 2nd Card */}
 
           <div className="relative flex w-80 md:h-96 md:pt-4 flex-col rounded-xl pt-6   bg-white bg-clip-border text-gray-700 shadow-md">
-              <div className="">
-                  <img src={med} alt="Medical" />
+              <div >
+                  <img className="h-40 w-full" src={farm} alt="Medical" />
               </div>
               <div className="p-6">
                   <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                  Medi-Merge
+                  Farmer-Nuts
                   </h5>
                   <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-                  Medi Merge is a Medial E-commerce Website
+                  Farmer-Nuts E-Commerce Website for Nuts and seeds 
                   </p>
               </div>
               <div className="p-6 pt-0">
