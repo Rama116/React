@@ -1,10 +1,10 @@
 import { Github, Instagram, Linkedin } from "lucide-react"
 import black from "../assets/img/undraw_server_down_s-4-lk.svg"
 import java from "../assets/img/java.png"
-import python from "../assets/img/java.png"
-import react from "../assets/img/java.png"
-import javascript from "../assets/img/java.png"
-import django from "../assets/img/java.png"
+import python from "../assets/img/python.jpg"
+import react from "../assets/img/react.webp"
+import javascript from "../assets/img/javascript.webp"
+import django from "../assets/img/django.png"
 const Content = () => {
   return (
     <>
@@ -33,17 +33,17 @@ const Content = () => {
             </div>
         </div>
         
-        <div className="bg-neutral-300/10 w-auto h-[40rem] md:h-[20rem]">
+        <div className="bg-neutral-300/10 w-auto h-[35rem] md:h-[20rem]">
                 <div className="flex justify-center items-center text-2xl font-serif md:text-4xl h-[4rem] md:h-[5rem] w-[50%] md:w-[20%]">
                     <h1>SKILLS</h1>
                 </div>
 
                 <div className="md:h-[10rem] flex flex-col md:flex-row justify-around items-center"   >
-                    <img className="h-28 md:h-36" src={java} alt="Java" />
-                    <img className="h-28 md:h-36" src={python} alt="Python" />
-                    <img className="h-28 md:h-36" src={react} alt="React" />
-                    <img className="h-28 md:h-36" src={javascript} alt="Jvascript" />
-                    <img className="h-28 md:h-36" src={django} alt="Django" />
+                    <img className="h-20  md:h-32" src={java} alt="Java" />
+                    <img className="h-16 mt-4 md:h-32" src={python} alt="Python" />
+                    <img className="h-20 mt-4 md:h-32" src={react} alt="React" />
+                    <img className="h-20 mt-4 md:h-32" src={javascript} alt="Jvascript" />
+                    <img className="h-16 mt-4 md:h-32" src={django} alt="Django" />
                 </div>
         </div>
 
