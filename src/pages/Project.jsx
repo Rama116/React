@@ -5,9 +5,7 @@ import farm from "../assets/img/farmerlogo.webp"
 import wea from "../assets/img/weather.jpg"
 const Project = () => {
   return (
-    <>
-        
-    
+    <>  
       <div className="h-screen w-[fixed] flex flex-col md:flex-row">
 
         <div className="md:h-screen md:w-[100vw] h-screen  m-2 md:m-3 md:p-4 md:pt-5 bg-slate-50 pl-3 pt-3 md:pt-2 md:flex md:gap-4">
