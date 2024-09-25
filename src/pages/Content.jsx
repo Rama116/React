@@ -1,15 +1,15 @@
 import { Github, Instagram, Linkedin } from "lucide-react"
 import black from "../assets/img/undraw_server_down_s-4-lk.svg"
-import java from "../assets/img/java.png"
-import python from "../assets/img/python.jpg"
-import react from "../assets/img/react.webp"
-import javascript from "../assets/img/javascript.webp"
-import django from "../assets/img/django.png"
+import java from "../assets/img/java.gif"
+import python from "../assets/img/python.gif"
+import react from "../assets/img/react.gif"
+import javascript from "../assets/img/javascript.gif"
+import django from "../assets/img/django.webp"
 const Content = () => {
   return (
     <>
 
-        <div className="h-80vh w-full bg-neutral-300/10 flex flex-col md:flex-row">
+        <div className="h-screen w-full bg-neutral-300/10 flex flex-col md:justify-center md:items-center md:flex-row">
             <div className="h-auto md:h-[35rem] w-full md:w-[60%] flex flex-col justify-center items-center px-4 md:px-0">
                     <h1 className="text-3xl md:text-5xl md:flex md:items-start md:pl-[4.5rem] w-full  font-serif font-light text-black text-center md:text-left">
                     RAMALINGAM M
@@ -34,12 +34,12 @@ const Content = () => {
         </div>
         
         <div className="bg-neutral-300/10 w-auto h-[35rem] md:h-[20rem]">
-                <div className="flex justify-center items-center text-2xl font-serif md:text-4xl h-[4rem] md:h-[5rem] w-[50%] md:w-[20%]">
+                <div className="flex justify-center items-center text-2xl font-serif w-auto md:text-4xl h-[4rem] md:h-[5rem] w-[50%] md:w-[20%]">
                     <h1>SKILLS</h1>
                 </div>
 
                 <div className="md:h-[10rem] flex flex-col md:flex-row justify-around items-center"   >
-                    <img className="h-20  md:h-32" src={java} alt="Java" />
+                    <img className="h-20 md:h-32" src={java} alt="Java" />
                     <img className="h-16 mt-4 md:h-32" src={python} alt="Python" />
                     <img className="h-20 mt-4 md:h-32" src={react} alt="React" />
                     <img className="h-20 mt-4 md:h-32" src={javascript} alt="Jvascript" />
