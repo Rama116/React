@@ -8,12 +8,18 @@ import NavBar from "./components/NavBar";
 import Content from "./pages/Content";
 import Contact from "./pages/Contact";
 import Project from "./pages/Project";
+import Footer from "./components/Footer";
+
+import { Toaster } from 'react-hot-toast';
+
+
 const App = () => {
 
   return (
     <>
           <Router>
             <NavBar />
+            <Toaster position="top-center" />
             <Routes>
                 <Route exact path="/" element={<Content />} />
                 <Route
@@ -25,6 +31,7 @@ const App = () => {
                     element={<Project />}
                 />
             </Routes>
+            <Footer/>
         </Router>
     </>
   )

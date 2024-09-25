@@ -3,24 +3,25 @@
 import med from "../assets/img/medical.webp"
 import farm from "../assets/img/farmerlogo.webp"
 import wea from "../assets/img/weather.jpg"
+// import Footer from "../components/Footer"
 const Project = () => {
   return (
     <>  
-      <div className="h-screen w-[fixed] flex flex-col md:flex-row">
+      <div className="h-screen w-[100%] flex flex-col md:flex-row">
 
-        <div className="md:h-screen md:w-[100vw] h-screen  m-2 md:m-3 md:p-4 md:pt-5 bg-slate-50 pl-3 pt-3 md:pt-2 md:flex md:gap-4">
-            <div className="flex flex-col gap-4 md:flex-row md:gap-4">
+        <div className="md:h-auto md:w-[100vw] h-screen m-2 md:m-3 md:p-4  bg-slate-50 pt-3 md:pt-2 md:flex md:gap-4">
+            <div className="flex flex-col gap-4 md:flex-row md:gap-8">
 
               {/* 1st Card */}
-              <div className="relative flex w-80 md:h-96 md:pt-4 flex-col rounded-xl pt-6   bg-white bg-clip-border text-gray-700 shadow-md">
+              <div className="relative flex w-80 md:h-96 md:pt-4 flex-col rounded-xl pt-6   bg-white bg-clip-border text-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:bg-gray-900 hover:text-white hover:scale-100 md:hover:scale-110 duration-300">
               <div>
                   <img className="h-40 w-full" src={med} alt="Medical" />
               </div>
               <div className="p-6">
-                  <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                  <h5 className="mb-2 block font-sans text-xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased">
                   Medi-Merge
                   </h5>
-                  <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                  <p className="block font-sans text-base font-semibold leading-relaxed text-inherit antialiased">
                   Medi Merge is a Medial E-commerce Website
                   </p>
               </div>
@@ -38,15 +39,15 @@ const Project = () => {
 
           {/* 2nd Card */}
 
-          <div className="relative flex w-80 md:h-96 md:pt-4 flex-col rounded-xl pt-6   bg-white bg-clip-border text-gray-700 shadow-md">
+          <div className="relative flex w-80 md:h-96 md:pt-4 flex-col rounded-xl pt-6   bg-white bg-clip-border text-gray-700 shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:bg-gray-900 hover:text-white hover:scale-100 md:hover:scale-110 duration-300">
               <div>
                   <img className="h-40 w-full" src={farm} alt="Medical" />
               </div>
               <div className="p-6">
-                  <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                  <h5 className="mb-2 block font-sans text-xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased">
                   Farmer-Nuts
                   </h5>
-                  <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                  <p className="block font-sans text-base font-semibold leading-relaxed text-inherit antialiased">
                   Farmer-Nuts E-Commerce Website for Nuts and seeds 
                   </p>
               </div>
@@ -64,15 +65,15 @@ const Project = () => {
          
            {/* 3rd Card */}
 
-           <div className="relative flex w-80 md:h-96 md:pt-4 flex-col rounded-xl pt-6   bg-white bg-clip-border text-gray-700 shadow-md">
+           <div className="relative flex w-80 md:h-96 md:pt-4 flex-col rounded-xl pt-6   bg-white bg-clip-border text-gray-700 shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:bg-gray-900 hover:text-white hover:scale-100 md:hover:scale-110 duration-300">
               <div>
                   <img className="h-40 w-full" src={wea} alt="Medical" />
               </div>
               <div className="p-6">
-                  <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                  <h5 className="mb-2 block font-sans text-xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased">
                   Weather Website
                   </h5>
-                  <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                  <p className="block font-sans text-base font-semibold leading-relaxed text-inherit antialiased">
                   Can view Weather/Climatic condition on Different locations
                   </p>
               </div>

@@ -1,10 +1,12 @@
 import { Github, Instagram, Linkedin } from "lucide-react"
 import black from "../assets/img/undraw_server_down_s-4-lk.svg"
-import java from "../assets/img/java.gif"
-import python from "../assets/img/python.gif"
-import react from "../assets/img/react.gif"
-import javascript from "../assets/img/javascript.gif"
+import java from "../assets/img/java.webp"
+import python from "../assets/img/python.webp"
+import react from "../assets/img/react.webp"
+import javascript from "../assets/img/javascript.webp"
 import django from "../assets/img/django.webp"
+
+// import Footer from "../components/Footer";
 const Content = () => {
   return (
     <>
@@ -39,14 +41,15 @@ const Content = () => {
                 </div>
 
                 <div className="md:h-[10rem] flex flex-col md:flex-row justify-around items-center"   >
-                    <img className="h-20 md:h-32" src={java} alt="Java" />
-                    <img className="h-16 mt-4 md:h-32" src={python} alt="Python" />
-                    <img className="h-20 mt-4 md:h-32" src={react} alt="React" />
-                    <img className="h-20 mt-4 md:h-32" src={javascript} alt="Jvascript" />
-                    <img className="h-16 mt-4 md:h-32" src={django} alt="Django" />
+                    <img className="h-20 md:h-32 transition ease-in-out delay-150 hover:scale-125 " src={java} alt="Java" />
+                    <img className="h-16 mt-4 md:h-32 transition ease-in-out delay-150 hover:scale-125" src={python} alt="Python" />
+                    <img className="h-20 mt-4 md:h-32 transition ease-in-out delay-150 hover:scale-125" src={react} alt="React" />
+                    <img className="h-20 mt-4 md:h-32 transition ease-in-out delay-150 hover:scale-125" src={javascript} alt="Jvascript" />
+                    <img className="h-16 mt-4 md:h-32 transition ease-in-out delay-150 hover:scale-125" src={django} alt="Django" />
                 </div>
         </div>
 
+        {/* <Footer /> */}
     </>
   )
 }

@@ -19,7 +19,7 @@ const NavBar = () => {
       
       <div className="w-full h-[4rem] grad-blue-bg text-black bg-neutral-300/10 flex justify-center items-center">
         <div className="h-full w-[90%] md:w-[85%] flex justify-between items-center">
-          <h1 className="text-2xl md:text-3xl text-black h-full flex justify-start items-center">
+          <h1 className="text-lg md:text-3xl text-black h-full flex justify-start items-center">
             PORTFOLIO
           </h1>
           <div className="h-full flex flex-row justify-end items-center gap-4 md:gap-6">
